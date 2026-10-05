@@ -10,7 +10,7 @@ Documento académico grupal elaborado bajo normativa **APA**, como proyecto form
 |---|---|
 | Johann Felipe Hincapié Usuga | Líder de equipo |
 | Jorge Andrés Ávila Rodríguez | Integrante |
-| Estefanía Muñoz Tobón | Integrante |
+| Juan Felipe Isaza Vásquez | Integrante |
 | Brayner Stewart Flórez Palacios | Integrante |
 | Stiven Martínez Piedrahíta | Integrante |
 
@@ -27,13 +27,13 @@ Documento académico grupal elaborado bajo normativa **APA**, como proyecto form
 | Objetivos (taxonomía de Bloom) | Jorge Andrés Ávila Rodríguez |
 | Alcance (inclusiones y exclusiones) | Jorge Andrés Ávila Rodríguez |
 | Listado de tablas | Jorge Andrés Ávila Rodríguez |
-| Diagramas UML (modelo relacional) | Stiven Martínez Piedrahíta |
-| Stack tecnológico | Stiven Martínez Piedrahíta |
-| Glosario | Estefanía Muñoz Tobón |
-| Referencias | Estefanía Muñoz Tobón |
-| Reglamentación y condiciones legales | Brayner Stewart Flórez Palacios |
-| Conclusiones | Brayner Stewart Flórez Palacios |
-| Listado de ilustraciones | Brayner Stewart Flórez Palacios |
+| Diagramas UML (modelo relacional) | Brayner Stewart Flórez Palacios |
+| Stack tecnológico | Brayner Stewart Flórez Palacios |
+| Glosario | Juan Felipe Isaza Vásquez |
+| Referencias | Juan Felipe Isaza Vásquez |
+| Reglamentación y condiciones legales | Stiven Martínez Piedrahíta |
+| Conclusiones | Stiven Martínez Piedrahíta |
+| Listado de ilustraciones | Stiven Martínez Piedrahíta |
 
 > La tabla de contenido se autogenera al final, por lo que no tiene un responsable fijo de redacción: se actualiza automáticamente a medida que el documento crece.
 

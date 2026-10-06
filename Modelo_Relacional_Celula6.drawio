@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="celula6" name="Modelo relacional - Célula 6">
+    <mxGraphModel dx="1483" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontStyle=1;" value="&lt;b&gt;SAZÓN - MODELO RELACIONAL / UML&lt;/b&gt;&lt;br/&gt;Célula 6: Comunidad y valores" vertex="1">
+          <mxGeometry height="40" width="800" x="40" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f51b5;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;spacingRight=8;fontSize=12;" value="&lt;b&gt;calificaciones&lt;/b&gt;&lt;hr/&gt;id PK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;puntuacion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;fecha_calificacion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;DATE&lt;/font&gt;&lt;br/&gt;id_usuario &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_receta &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;" vertex="1">
+          <mxGeometry height="185" width="280" x="50" y="229" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f51b5;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;spacingRight=8;fontSize=12;" value="&lt;b&gt;favoritos&lt;/b&gt;&lt;hr/&gt;id PK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;nota_personal &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(255)&lt;/font&gt;&lt;br/&gt;fecha_creacion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;DATE&lt;/font&gt;&lt;br/&gt;permiso_edicion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(50)&lt;/font&gt;&lt;br/&gt;orden_posicion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_usuario &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_receta &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;" vertex="1">
+          <mxGeometry height="233" width="280" x="940" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f51b5;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;spacingRight=8;fontSize=12;" value="&lt;b&gt;colecciones&lt;/b&gt;&lt;hr/&gt;id PK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;nombre &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(100)&lt;/font&gt;&lt;br/&gt;categoria &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(100)&lt;/font&gt;&lt;br/&gt;descripcion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(255)&lt;/font&gt;&lt;br/&gt;fecha_creacion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;DATE&lt;/font&gt;&lt;br/&gt;id_usuario &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_receta &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;" vertex="1">
+          <mxGeometry height="233" width="280" x="10" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f51b5;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;spacingRight=8;fontSize=12;" value="&lt;b&gt;reportes&lt;/b&gt;&lt;hr/&gt;id PK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;fecha &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;DATE&lt;/font&gt;&lt;br/&gt;motivo &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(50)&lt;/font&gt;&lt;br/&gt;descripcion &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(255)&lt;/font&gt;&lt;br/&gt;estado &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(50)&lt;/font&gt;&lt;br/&gt;id_usuario &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_receta &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_comentario FK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;" vertex="1">
+          <mxGeometry height="257" width="280" x="580" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f51b5;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;spacingRight=8;fontSize=12;" value="&lt;b&gt;favoritos_colecciones&lt;/b&gt;&lt;hr/&gt;id PK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_favorito FK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_coleccion FK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;" vertex="1">
+          <mxGeometry height="137" width="280" x="960" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="30" edge="1" parent="1" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeWidth=1.5;" target="11" value="1 : 1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeWidth=1.5;" target="14" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" edge="1" parent="1" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeWidth=1.5;" target="10" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeWidth=1.5;" target="15" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" edge="1" parent="1" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeWidth=1.5;" target="15" value="1 : N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o6HQEo88fbgWSANEcNc6-50" edge="1" parent="1" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=ERmany;startArrow=ERone;strokeWidth=1.5;" target="11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="217" as="sourcePoint" />
+            <mxPoint x="320" y="183" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#3f51b5;align=left;verticalAlign=top;spacingTop=8;spacingLeft=8;spacingRight=8;fontSize=12;" value="&lt;b&gt;comentarios&lt;/b&gt;&lt;hr/&gt;id PK &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;foto_resultado &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(50)&lt;/font&gt;&lt;br/&gt;texto &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(255)&lt;/font&gt;&lt;br/&gt;fecha_hora &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;DATETIME&lt;/font&gt;&lt;br/&gt;reacciones_usuario &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;VARCHAR(50)&lt;/font&gt;&lt;br/&gt;id_receta &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;id_usuario &lt;font color=&#39;#666666&#39; size=&#39;1&#39;&gt;INT&lt;/font&gt;&lt;br/&gt;" vertex="1">
+          <mxGeometry height="233" width="280" x="530" y="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
